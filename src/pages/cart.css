@@ -1,0 +1,42 @@
+.cartitems{
+    width: 100%;
+    height: auto;
+}
+
+.item{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+   margin-bottom: 5px;
+   background-color: rgb(255, 255, 255);
+}
+.cartimg{
+    width: 50px;
+
+}
+.itemtitle{
+    font-size: 14px;
+    width: 80px;
+    height: 80%;
+    overflow: hidden;
+    font-weight: 500;
+    
+}
+.itemprice{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.cartbtn{
+    width: 80px;
+    height: 40px;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
